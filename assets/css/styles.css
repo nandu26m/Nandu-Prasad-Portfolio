@@ -1,1 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #007acc;
+  font-weight: bold;
+}
+
+h1, h2, h3 {
+  color: #222;
+}
+
+.projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects li {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+.resume a {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  background: #007acc;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.resume a:hover {
+  background: #005f99;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact li {
+  margin-bottom: 0.5rem;
+}
 
