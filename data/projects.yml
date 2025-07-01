@@ -1,1 +1,29 @@
+- name: Data Warehouse and Analytics Project
+  description: Comprehensive data warehousing and analytics solution generating actionable insights.
+  tech:
+    - SQL
+  github: https://github.com/nandu26m/SQL-data-warehouse-project.git
+
+- name: Black Friday Purchases
+  description: Analyzed customer purchase behavior vs gender & other factors to help business decisions.
+  tech:
+    - Python
+    - pandas
+    - numpy
+    - matplotlib
+    - scipy
+    - seaborn
+  github: https://github.com/nandu26m/black-friday-purchases.git
+
+- name: Data Project From Apollo
+  description: Analyzed hospitalization data to uncover patient demographics and treatment patterns.
+  tech:
+    - Python
+    - Pandas
+    - NumPy
+    - Matplotlib
+    - Seaborn
+    - Plotly
+    - Jupyter Notebook
+  github: https://github.com/nandu26m/data-project-from-apollo.git
 
