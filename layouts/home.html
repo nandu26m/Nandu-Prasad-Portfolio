@@ -1,1 +1,37 @@
+---
+layout: default
+---
+
+<section class="intro">
+  <h1>Nandu</h1>
+  <h2>Data Analyst | ML Enthusiast | Dashboard Developer</h2>
+  <p>A detail-oriented and technically skilled data analyst with a strong foundation in SQL, Python, and Tableau,  
+  seeking a data-driven role where I can apply my expertise in dashboard development, ETL automation, and KPI tracking.</p>
+</section>
+
+<section class="projects">
+  <h2>Projects</h2>
+  <ul>
+    {% for project in site.data.projects %}
+    <li>
+      <h3><a href="{{ project.github }}">{{ project.name }}</a></h3>
+      <p>{{ project.description }}</p>
+      <p><strong>Tech:</strong> {{ project.tech | join: ", " }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="contact">
+  <h2>Contact</h2>
+  <ul>
+    <li><a href="https://www.linkedin.com/in/nanduprasad/">LinkedIn</a></li>
+    <li><a href="https://github.com/nandu26m">GitHub</a></li>
+    <li>Email: <a href="mailto:nanduprasad.pm@gmail.com">nanduprasad.pm@gmail.com</a></li>
+  </ul>
+</section>
+
+<section class="resume">
+  <a href="{{ '/Nandu_Prasad_Resume.pdf' | relative_url }}" download>Download Resume (PDF)</a>
+</section>
 
