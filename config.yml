@@ -1,1 +1,8 @@
+title: Nandu's Portfolio
+description: Data Analyst | ML Enthusiast | Dashboard Developer
+baseurl: "" # leave blank unless hosting under a subpath
+url: "https://your-github-username.github.io" # Replace with your GitHub Pages URL
+theme: minima
+plugins:
+  - jekyll-feed
 
